@@ -29,16 +29,16 @@ class FeedService extends ChangeNotifier {
 
   late Credentials _credentials;
   late EthereumAddress _contractAddress;
-  // late EthereumAddress _ownAddress;
   late DeployedContract _contract;
 
   late ContractFunction _messages;
   late ContractFunction _messageCount;
   late ContractFunction _createMessage;
 
-  // Not recommended | Get the private key by connecting properly to a wallet
+  // In production get private key from wallet
+  // Hard coded here. Can take from Ganache address
   final String _privateKey =
-      "2c0591c8fe6d741e210552b206246216d0cbdb52b528fec591820c1a4cf36a1e";
+      "6d0c41e4253eb94e3b17d8a3554f23f43a5595e2a56d95e8adc508389ff874bc";
 
 
   Future<void> init() async {
