@@ -1,16 +1,15 @@
-# flutter_dapp
+# Blockchain Chat 💬
 
-A new Flutter project.
+This app utilizes a locally hosted blockchain connected to a Flutter app that can send and receive messages.
 
-## Getting Started
+### Flutter Decentralized App 🔥
 
-This project is a starting point for a Flutter application.
+This app utilizes a locally hosted blockchain connected to a Flutter app that can send and receive messages.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Learnings 🎯
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Truffle and Ganache – Used the Ethereum Virtual Machine development environment with a locally run blockchain
+2. Created a simple contract in Solidity
+3. Wired up a simple Flutter app to send and receive messages from the contract
